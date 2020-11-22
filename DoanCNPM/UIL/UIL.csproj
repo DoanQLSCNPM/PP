@@ -102,6 +102,9 @@
     <Compile Include="TraSach.Designer.cs">
       <DependentUpon>TraSach.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BaoCaoThongKe.resx">
+      <DependentUpon>BaoCaoThongKe.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DangKi.resx">
       <DependentUpon>DangKi.cs</DependentUpon>
     </EmbeddedResource>

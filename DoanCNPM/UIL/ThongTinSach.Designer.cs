@@ -37,7 +37,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.TB1TTS = new System.Windows.Forms.TextBox();
-            this.TB2TTS = new System.Windows.Forms.TextBox();
             this.TB3TTS = new System.Windows.Forms.TextBox();
             this.TB4TTS = new System.Windows.Forms.TextBox();
             this.TB5TTS = new System.Windows.Forms.TextBox();
@@ -56,6 +55,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -141,13 +141,6 @@
             this.TB1TTS.Size = new System.Drawing.Size(100, 22);
             this.TB1TTS.TabIndex = 8;
             // 
-            // TB2TTS
-            // 
-            this.TB2TTS.Location = new System.Drawing.Point(536, 80);
-            this.TB2TTS.Name = "TB2TTS";
-            this.TB2TTS.Size = new System.Drawing.Size(100, 22);
-            this.TB2TTS.TabIndex = 9;
-            // 
             // TB3TTS
             // 
             this.TB3TTS.Location = new System.Drawing.Point(97, 115);
@@ -213,7 +206,7 @@
             // listView1
             // 
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(16, 222);
+            this.listView1.Location = new System.Drawing.Point(18, 219);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(772, 223);
             this.listView1.TabIndex = 18;
@@ -294,11 +287,20 @@
             this.button3.Text = "Exit";
             this.button3.UseVisualStyleBackColor = true;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(536, 77);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(100, 24);
+            this.comboBox1.TabIndex = 28;
+            // 
             // ThongTinSach
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -317,7 +319,6 @@
             this.Controls.Add(this.TB5TTS);
             this.Controls.Add(this.TB4TTS);
             this.Controls.Add(this.TB3TTS);
-            this.Controls.Add(this.TB2TTS);
             this.Controls.Add(this.TB1TTS);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -345,7 +346,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox TB1TTS;
-        private System.Windows.Forms.TextBox TB2TTS;
         private System.Windows.Forms.TextBox TB3TTS;
         private System.Windows.Forms.TextBox TB4TTS;
         private System.Windows.Forms.TextBox TB5TTS;
@@ -364,5 +364,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
